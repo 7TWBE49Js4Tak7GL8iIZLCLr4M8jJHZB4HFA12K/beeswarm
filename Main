@@ -1,0 +1,120 @@
+local hum = game.Players.LocalPlayer.Character.HumanoidRootPart
+local colors = {
+    SchemeColor = Color3.fromRGB(0, 255, 200),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Bee Swarm Simulator | Silent Hub", colors)
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Main")
+
+Section:NewToggle("Autofarm Tokens", "Autofarm Tokens", function(state)
+    getgenv().token = false
+    if state then
+        while token do wait()
+            for i,v in pairs(game.Workspace.Collectibles:GetChildren()) do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+            end
+        end
+        else
+            getgenv().token = false
+    end
+end)
+
+Section:NewButton("Break Aura + Auto Collect Quest", "Break Aura, Auto Collect Quest", function()
+    wait()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/beeswarm/main/aura"))()
+end)
+
+local Tab = Window:NewTab("Codes")
+local Section = Tab:NewSection("Redeem All Codes")
+
+Section:NewButton("Redeem All Codes", "Redeem All Codes", function()
+    wait()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/beeswarm/main/codes"))()
+end)
+
+local Tab = Window:NewTab("Bear Locations")
+local Section = Tab:NewSection("Bear Locations")
+
+Section:NewButton("Panda Bear", "", function()
+    hum.CFrame = CFrame.new(104.291718, 32.2231483, 48.468544)
+end)
+
+Section:NewButton("Brown Bear", "", function()
+    hum.CFrame = CFrame.new(281.345428, 42.4838791, 236.982727)
+end)
+
+Section:NewButton("Polar Bear", "", function()
+    hum.CFrame = CFrame.new(-106.65079498291, 119.54811096191, -80.004623413086)
+end)
+
+Section:NewButton("Science Bear", "", function()
+    hum.CFrame = CFrame.new(266.01779174805, 103.14269256592, 19.781604766846)
+end)
+
+Section:NewButton("Mother Bear", "", function()
+    hum.CFrame = CFrame.new(-178.04304504395, 5.6409993171692, 85.285064697266)
+end)
+
+Section:NewButton("Riley Bee", "", function()
+    hum.CFrame = CFrame.new(-358.34661865234, 73.750801086426, 212.50411987305)
+end)
+
+Section:NewButton("Bucko Bee", "", function()
+    hum.CFrame = CFrame.new(304.71542358398, 61.930923461914, 107.62322998047)
+end)
+
+Section:NewButton("Black Bear", "", function()
+    hum.CFrame = CFrame.new(-255.19729614258, 5.5008931159973, 298.19418334961)
+end)
+
+Section:NewButton("Honey Bee", "", function()
+    hum.CFrame = CFrame.new(-454.3176574707, 103.89117431641, -225.65203857422)
+end)
+
+Section:NewButton("Spirit Bear", "", function()
+    hum.CFrame = CFrame.new(-365.650421, 94.7431412, 479.1162416486e-05)
+end)
+
+Section:NewButton("Stick Bug", "", function()
+    hum.CFrame = CFrame.new(-127.61221313477, 50.070953369141, 149.1690826416)
+end)
+
+Section:NewButton("Onett", "", function()
+    hum.CFrame = CFrame.new(-9.00998878, 229.15538, -520.563965)
+end)
+
+Section:NewButton("Dapper Bear", "", function()
+    hum.CFrame = CFrame.new(555.71105957031, 142.55918884277, -361.83111572266)
+end)
+
+Section:NewButton("Gummy Bear", "", function()
+    hum.CFrame = CFrame.new(273.33874511719, 25292.880859375, -859.5888671875)
+end)
+
+local Tab = Window:NewTab("Local Player")
+local Section = Tab:NewSection("Local Player")
+
+Section:NewButton("Speed", "Speed", function()
+    wait()
+    getgenv().speed = true 
+    local Character = game.Players.LocalPlayer.Character.Humanoid
+
+    while speed do wait()
+        if Character.WalkSpeed <= 50 then 
+            Character.WalkSpeed = 70 
+        end
+    end
+end)
+
+local Tab = Window:NewTab("Settings")
+local Section = Tab:NewSection("Settings")
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
