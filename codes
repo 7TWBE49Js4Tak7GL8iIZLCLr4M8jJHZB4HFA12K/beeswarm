@@ -1,0 +1,132 @@
+wait(0.5)
+local A_1 = "Banned"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "1MLikes"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "WordFactory"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Millie"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Troggles"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Luther"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "CarmensAnDiego"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Dysentery"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Jumpstart"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Mocito100T"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "RedMarket"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Cubly"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "500mil"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "BeesBuzz123"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "ClubBean"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "ClubConverters"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Discord100k"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "GumdropsForScience"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "GumdropsForScience"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Marshmallow"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "SecretProfileCode"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Sure"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Teespring"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Wax"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Wink"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Buzz"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Nectar"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "38217"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Bopmaster"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Cog"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Connoisseur"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Crawlers"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
+wait(0.5)
+local A_1 = "Roof"
+local Event = game:GetService("ReplicatedStorage").Events.PromoCodeEvent
+Event:FireServer(A_1)
